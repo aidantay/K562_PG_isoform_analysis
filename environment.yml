@@ -1,0 +1,13 @@
+name: K562_PG_isoform_analysis
+
+channels:
+  - bioconda
+  - defaults
+
+dependencies:
+  - biopython
+  - numpy
+  - pandas
+  - pysam
+  - pyspark=3
+  - python=3.7
